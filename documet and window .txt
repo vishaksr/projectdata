@@ -1,0 +1,50 @@
+DOCUMENT OBJECT:
+     The document object represents a web page that is locate in the browser.
+     By accessing the document object, we can access the element in the HTML
+     page. with the help of document object, we can add dynamic content to our web
+     page. The document object can be accesed with a document.
+     EXAMPLE:
+       <html>
+       <head>
+       <title>document</title>
+       <style>
+       h1{
+        color:green
+       }
+       </head>
+       </style>
+       <body>
+       <h1>hello</h1>
+       <button onclick="myfunction()">clickme</button>
+       <script>
+       function myfunction(){
+        let body=document.body;
+       }
+       </script>
+       </body>
+       <html>
+WINDOW OBJECT:
+    The window object is the topmost object of the DOM hierarchy. IT  represents
+    a browser window or frame that displays the contents of the webpage. whenever       
+    a window appears on the screen to display the contents of the document,
+    the window is created.
+        EXAMPLE:
+       <html>
+       <head>
+       <title>Window</title>
+       <style>
+       h1{
+        color:green
+       }
+       </head>
+       </style>
+       <body>
+       <h1>hello</h1>
+       <button onclick="show()">clickme</button>
+       <script>
+       function (){show
+        let body=window.body;
+       }
+       </script>
+       </body>
+       <html>
